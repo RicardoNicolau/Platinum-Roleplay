@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Platinum Roleplay</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body onload="myFunction()" style="margin: 0">
+    <!-- Background video -->
+    <video autoplay muted loop id="myVideo">
+      <source src="gta.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Header -->
+    <div class="header-wrap">
+      <div class="row">
+        <div class="col-12">
+          <div class="header">
+            <ul class="links">
+              <li><a href="index.html">Home</a></li>
+            </ul>
+            <ul class="links">
+              <li><a href="https://discord.gg/ka4qWDw">Discord</a></li>
+              <li>
+                <a href="https://docs.google.com/forms/d/1R3KTWiGCSOaT7MWeBe2VmTqjdeUTzVY-aXoKFUkIfs8/edit"
+                  >Whitelist</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Loader -->
+    <div id="loader"></div>
+
+    <script>
+      var myVar;
+      function myFunction() {
+        myVar = setTimeout(showPage, 1500);
+      }
+
+      function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+      }
+    </script>
+
+    <!-- Main content -->
+    <div class="row">
+      <div class="col-6">
+        <div style="display: none" id="myDiv" class="animate-bottom index-box">
+          <h1>Platinum Roleplay</h1>
+          <p>Följ med oss på ett nytt äventyr inom RP.<br />För spelare.</p>
+          <ul>
+            <li><a href="information.html">Vad är Platinum Roleplay</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <p>
+          &copy; 2025 <strong>Platinum Roleplay</strong>. All Rights Reserved. | Developed & Designed by
+          <strong><a href="https://github.com/RicardoNicolau" target="_blank">Your Name</a></strong>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
