@@ -2,6 +2,10 @@
 
 This is the official website for **Platinum Roleplay**, a GTA V roleplay server using **FiveM**. The website contains important information about the server, resources for players, and links for joining the server.
 
+## Live Demo
+
+Check out the live demo at [Platinum Roleplay Live](https://platinum-roleplay.netlify.app)
+
 ## Features
 
 - **Home**: A welcome message, background video, and introduction to Platinum Roleplay.
